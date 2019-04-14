@@ -1,6 +1,13 @@
 // turn on stop function 
+$('#stopButton').on('click','turnOnStopLight')
+
 function turnOnStopLight() {
+  $(this).css('background-color', 'red')
+  
     // change background color of stop light to red
+    
+    
+    
     // changes background color of green and yellow to black
 }
 
